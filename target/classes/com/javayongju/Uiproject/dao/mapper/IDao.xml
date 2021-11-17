@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.javayongju.Uiproject.dao.IDao">
+	<select id="listDao" resultType="com.javayongju.Uiproject.dto.MDto">
+		SELECT * FROM MEMBER ORDER BY MID DESC
+	</select>
+	
+	
+	<insert id="writeDao">
+		INSERT INTO MEMBER (MID, MNAME, MPHONE, MADDRESS) VALUES (MEMBER_SEQ.NEXTVAL, #{param1}, #{param2}, #{param3})
+	</insert>
+	
+	<select id="viewDao" resultType="com.javayongju.Uiproject.dto.MDto">
+		SELECT * FROM MEMBER WHERE MID = #{param1}
+	
+	</select>	
+	
+	<delete id="deleteDao">
+		DELETE FROM MEMBER WHERE MID = #{param1}
+	</delete>
+	
+	<update id="modifyDao">
+		UPDATE MEMBER SET MNAME = #{param1}, MPHONE = #{param2}, MADDRESS = #{param3} WHERE mId = #{param4}  
+	</update>
+	
+	
+	
+	
+</mapper>

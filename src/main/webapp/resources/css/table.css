@@ -1,0 +1,85 @@
+@charset "EUC-KR";
+
+table.t-type01{
+	text-align: center;
+	
+}
+
+table.t-type02{
+	font-family: Arial;
+	font-size: 15px;
+	color: #ffffff;
+	font-weight: normal;
+	background-color: #6D9886;
+
+}
+body.b1{
+	margin: 0;
+	padding: 0;
+}
+a.h1:link {
+	text-decoration: none;
+	color: #ffffff;
+}
+a.h1:visited {
+	text-decoration: none;
+	color:#ffffff;
+	
+}
+
+a.h1:hover {
+	text-decoration: none;
+	color:#C8E3D4;
+	
+}
+
+a.h2:link {
+	text-decoration: none;
+	color: #105652;
+}
+a.h2:visited {
+	text-decoration: none;
+	color:#105652;
+	
+}
+
+a.h2:hover {
+	text-decoration: none;
+	color:#C8E3D4;
+	
+}
+
+td.td-type01{
+	font-family: Arial;
+	font-size: 18px;
+	color: #105652;
+	font-weight: bold;
+}
+
+#input01{
+	font-size: 20px;
+	color:#105652;
+	border: 1px solid #ffffff;
+	background-color: #ffffff;
+	width: 220px;
+	padding: 5px;
+}
+
+#input02{
+	font-size:20px;
+	color:#105652;
+	border: 1px solid #105652;
+	background-color: rgba(0,0,0,0);
+	width: 164px;
+	padding: 5px;
+}
+#input02:hover{
+	font-size:20px;
+	color:#D3E4CD;
+	border: 1px solid #D3E4CD;
+	background-color:#105652 ;
+	width: 164px;
+	padding: 5px;
+	
+}
+
